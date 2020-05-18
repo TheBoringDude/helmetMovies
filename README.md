@@ -1,7 +1,7 @@
 # helmetMovies
 Simple Movie Website Landing Page
 
-###Current Progress: [title](https://goofy-mirzakhani-1f338f.netlify.app/)
+### Current Progress: [https://goofy-mirzakhani-1f338f.netlify.app/](https://goofy-mirzakhani-1f338f.netlify.app/)
 
 ## TODOS:
 1. Add Media Queries
