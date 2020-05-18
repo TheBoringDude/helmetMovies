@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cairo:wght@300;700;900&display=swap');
+/* Do not change (change at your own cost) */
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+/* Do not change (change at your own cost) */
+
+/* Change with your google font */
+*{
+    font-family: 'Cairo', sans-serif;
+    font-weight: 300;
+}
+/* Change with your google font */
+
+
+/* Set margin and padding to 0 to remove white spaces in between containers, you can add other css codes */
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ADD / EDIT / MODIFY YOUR OWN CSS LINES HERE */
+.container{
+    padding: 1em;
+    background: url(./banner.jpg) rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1.2px;
+    font-size: 1em;
+}
+header > nav ul{
+    list-style: none;
+    display: flex;
+}
+header > nav a{
+    padding: 1em;
+}
+header > nav a:hover{
+    color: rgb(226, 25, 29);
+}
+header .special-link{
+    background-color: rgb(226, 25, 29);
+    padding: 0.5em 2em;
+    border-radius: 2em;
+}
+header .special-link:hover{
+    background-color: rgb(97, 5, 7);
+}
+
+.logo a{
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.showcase{
+    margin: 0 auto;
+    color: #fff;
+    padding: 2em 8em;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.showcase-image{
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+.showcase-image img{
+    width: 100%;
+}
+.showcase-image p#movie-genre{
+    position: absolute;
+    top: -1.5em;
+    right: -1em;
+    background: rgb(39, 45, 196);
+    padding: 0.5em 1em;
+}
+.showcase-image p#movie-rating{
+    position: absolute;
+    top: -1.5em;
+    left: -1em;
+    background: rgb(254, 215, 1);
+    padding: 1em;
+    border-radius: 2em;
+    color: #333;
+    font-weight: 900;
+    font-size: 0.8em;
+}
+.showcase-image a{
+    position: absolute;
+    bottom: -0.5em;
+    left: 0;
+    text-align: center;
+    padding: 0.5em 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ddd;
+}
+.showcase-image .btn-watch{
+    background-color: rgb(221, 79, 66);
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.showcase-image .btn-watch:hover{
+    background-color: rgb(226, 25, 29);
+}
+
+.showcase-info{
+    width: 65%;
+    text-align: center;
+}
+.showcase-info h1{
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    line-height: 0.5em;
+    font-size: 3em;
+    text-decoration: underline;
+}
+.showcase-info h4{
+    font-size: 1.5em;
+    font-style: italic;
+    color: #eee;
+}
+
+/* TO ADD MEDIA QUERIES BELOW */
